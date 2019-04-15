@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neha.application">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LocaleActivity"></activity>
+        <activity android:name=".ui.MainStorageActivity" />
+        <activity android:name=".ui.OtpActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".ui.LoginActivity" />
+        <activity android:name=".ui.RegistrationActivity" />
+        <activity android:name=".ui.AllCustomerActivity" />
+
+        <provider
+            android:name=".provider.MyContentProvider"
+            android:authorities="com.neha.application.mycp"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".ui.AddCustomerActivity" />
+        <activity android:name=".ProjectAssActivity" />
+        <activity android:name=".SensorsActivity" />
+        <activity android:name=".PersisitanceActivity" />
+        <activity android:name=".MapsActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".google_map_apiActivity"
+            android:label="@string/title_activity_google_map_api" />
+        <activity android:name=".SpeechRecognitionActivity" />
+        <activity android:name=".DialogActivity" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".AllNewsActivity" /> <!-- <activity android:name=".AllNews2Activity" />  <activity android:name=".AllNewsActivity"></activity> &ndash;&gt; -->
+        <activity android:name=".WeatherActivity" />
+        <activity android:name=".ViewsActivity" />
+        <activity android:name=".TTSActivity" />
+        <activity android:name=".AllSongsActivity" />
+        <activity android:name=".NewsAdapter" />
+        <activity android:name=".MyFragmentsActivity" />
+        <activity android:name=".PlayMusicActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WebViewActiviity" />
+        <activity android:name=".Calculator" />
+        <activity android:name=".LayoutsActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Home1Activity" />
+        <activity android:name=".ActivityOne" />
+        <activity android:name=".ActivityTwo2" />
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.otpActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Validation Code"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:padding="40dp"/>
+
+    <EditText
+        android:id="@+id/editTextOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="A OTP has been sent to you:"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/buttonProceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp"
+        android:padding="25dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

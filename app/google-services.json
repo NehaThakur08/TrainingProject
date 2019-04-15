@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "311500363201",
+    "firebase_url": "https://training2019-e7715.firebaseio.com",
+    "project_id": "training2019-e7715",
+    "storage_bucket": "training2019-e7715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311500363201:android:0b96f8436dccca02",
+        "android_client_info": {
+          "package_name": "com.neha.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAftzPqH7MtTg2Qy8fDdu67yj7-b6YCfa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311500363201-pph9f3gmtcouiabri8ol0m0aegogjtk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

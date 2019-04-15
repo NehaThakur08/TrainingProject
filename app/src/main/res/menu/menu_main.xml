@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="CNN"
+        android:id="@+id/cnn"
+        />
+
+    <item android:title="NDTV"
+        android:id="@+id/ndtv"
+        android:icon="@drawable/ic_mortarboard"/>1
+        <!--:showAsAction="ifRoom"-->
+
+
+        />
+
+    <item android:title="AAJ TAK"
+        android:id="@+id/aaj"
+        />
+    <item android:title="Zee News"
+        android:id="@+id/zee"/>
+
+    <item android:title="PTC"
+        android:id="@+id/ptc"
+        />
+</menu>

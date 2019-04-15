@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.RegistrationActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_marginTop="35dp"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:hint="  Mobile Number"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_phone_receiver"
+        android:drawableLeft="@drawable/ic_phone_receiver"
+        android:padding="12dp"
+         />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:hint="  Name"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_man_user"
+        android:drawableLeft="@drawable/ic_man_user"
+        android:padding="12dp"
+        />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"/>
+
+
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
