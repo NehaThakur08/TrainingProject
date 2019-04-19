@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">FarmingProject</string>
     <string name="title_activity_bottom_nav">BottomNavActivity</string>
     <string name="title_home">Home</string>
@@ -11,9 +13,8 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="titleRegister">Register</string>
-    <string name="phoneHint">Mobile Number</string>
-    <string name="nameHint">Name</string>
-    <string name="btnNext">Next</string>
-
+    <string name="titleRegister">ਰਜਿਸਟਰ</string>
+    <string name="phoneHint">ਮੋਬਾਈਲ ਨੰਬਰ</string>
+    <string name="nameHint">ਨਾਮ</string>
+    <string name="btnNext">ਅਗਲਾ</string>
 </resources>
