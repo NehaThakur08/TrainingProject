@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1088971684881",
+    "firebase_url": "https://farmingproject-8e482.firebaseio.com",
+    "project_id": "farmingproject-8e482",
+    "storage_bucket": "farmingproject-8e482.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088971684881:android:db188bfa5b272795",
+        "android_client_info": {
+          "package_name": "com.neha.farmingproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088971684881-7d6mj22fro1s1guqugr9isvq1d81o2mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbCRrkfLuZlKu14XFxJZK1f49ezGf0JqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088971684881-7d6mj22fro1s1guqugr9isvq1d81o2mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
