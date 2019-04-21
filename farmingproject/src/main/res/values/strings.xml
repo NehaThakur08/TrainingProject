@@ -15,5 +15,11 @@
     <string name="phoneHint">Mobile Number</string>
     <string name="nameHint">Name</string>
     <string name="btnNext">Next</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
 
 </resources>

@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.neha.farmingproject.ui.LanguageActivity;
+import com.neha.farmingproject.ui.ProfileActivity;
 import com.neha.farmingproject.ui.RegistrationActivity;
 
 public class SplashActivity extends AppCompatActivity {
@@ -23,7 +24,7 @@ public class SplashActivity extends AppCompatActivity {
         @Override
         public void handleMessage(Message msg) {
             if (msg.what == 101) {
-                Intent intent = new Intent(SplashActivity.this, LanguageActivity.class);
+                Intent intent = new Intent(SplashActivity.this, ProfileActivity.class);
                 startActivity(intent);
                 finish();
             }
