@@ -21,7 +21,9 @@ public class otpActivity extends AppCompatActivity {
         setContentView(R.layout.activity_otp);
         eTxtOtp = findViewById(R.id.editTextOtp);
         btnVerify = findViewById(R.id.buttonVerify);
-        btnVerify.setOnClickListener(new View.OnClickListener() {
+        btnVerify.setOnClickListener(new View.OnClickListener()
+        {
+
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), HomeDashboardActivity.class);
