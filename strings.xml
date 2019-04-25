@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">FarmingProject</string>
+    <string name="title_activity_bottom_nav">BottomNavActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_my_nav">MyNavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="titleRegister">Register</string>
+    <string name="phoneHint">Mobile Number</string>
+    <string name="nameHint">Name</string>
+    <string name="btnNext">Next</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    //Barley
+    <string name="barley" translatable="false">Barley is an annual plant, which means that it ends its life cycle in one year.The greatest quantity of produced barley is used as animal food.</string>
+    <string name="barleySoil" translatable="false">Barley can be grown on a wide range of soil types;ranging from heavy clays to light or sandy loam soils.It grows well on fertile, deep loam soils with a pH of 6
+to 7, 5. Soils with a pH lower than 6 may induce aluminium toxicity, leading to poor growth.</string>
+    <string name="barleyIrrigation" translatable="false">Irrigation scheduling must be done according to evaporation and as per growth stage, because barley is more sensitive to stress during jointing, booting and heading.</string>
+    <string name="barleyHarvest" translatable="false">Barley is ready for harvest in about 4 months after sowing.Barley can be harvested manually under small scale or combine harvesters can be used in large production scales</string>
+    //Maize
+    <string name="maize" translatable="false">Maize, also known as corn, is a cereal grain.Maize has become a staple food.</string>
+    <string name="maizeSoil" translatable="false">Maize grows in a wide range of soils, ranging from temperate podzols to the leached red soils of the tropics. But, the best suitable soil for maize is deep, rich soils of the sub-tropics, where there is abundant nitrogen.</string>
+    <string name="maizeIrrigation" translatable="false">Maize crop is sensitive to both moisture stress and excessive moisture, hence regulate irrigation according to the requirement.Ensure optimum moisture availability during the most critical phase (45 to 65 days after sowing); otherwise yield will be reduced by a considerable extent.</string>
+    <string name="maizeHarvest" translatable="false">The ideal time to harvest your maize silage crop is when the whole plant dry matter is between 32- 40%.Harvesting a crop too early will result in a yield loss and potentially poor fermentation.</string>
+    //Wheat
+    <string name="wheat" translatable="false">Wheat is the main cereal crop in India.Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food.</string>
+    <string name="wheatSoil" translatable="false">Wheat is grown in a variety of soils of India. Soils with a clay loam or loam texture, good structure and moderate water holding capacity are ideal for wheat cultivation.</string>
+    <string name="wheatIrrigation" translatable="false"> To harvest a good crop of wheat about 40 cm depth of water is used as evapotranspiration. There may be the need for 4-5 irrigations for wheat. In sandy loam soil 6-8 irrigations may be required whereas in heavy clay soil 3-4 irrigations are considered to be sufficient.</string>
+    <string name="wheatHarvest" translatable="false">Wheat is harvested in the summer months, after being harvested in the spring or winter. The moisture content of the wheat is the most critical factor for determining when your wheat is ready for harvest.Grain is ready to harvest between 20% and 14% moisture.</string>
+    //Rice
+    <string name="rice" translatable="false">Rice is the most important human food crop in the world, directly feeding more people than any other crop.</string>
+    <string name="riceSoil" translatable="false">Good amount of clay and organic matter are considered ideal for rice cultivation. It grows well in soils having a pH range between 5.5 and 6.5.</string>
+    <string name="riceIrrigation" translatable="false"> Rice is typically grown in bunded fields that are continuously flooded up to 7−10 days before harvest. Continuous flooding helps ensure sufficient water and control weeds. On average, it takes 1,432 liters of water to produce 1 kg of rice in an irrigated lowland production system.</string>
+    <string name="riceHarvest" translatable="false">Depending on the variety, a rice crop usually reaches maturity at around 105–150 days after crop establishment. Harvesting activities include cutting, stacking, handling, threshing, cleaning, and hauling.</string>
+    //Cotton
+    <string name="cotton" translatable="false">Cotton is a soft, fluffy staple fiber that grows in a boll, or protective case, around the seeds of the cotton plants of the genus Gossypium</string>
+    <string name="cottonSoil" translatable="false">The cotton favorite, sandy loam, is silt and clay that contains some sand. Loamy sand contains some silt and clay.</string>
+    <string name="cottonIrrigation" translatable="false"> The total climatic water requirement of cotton is about 700-1000 mm, which depends on time of sowing and varies from genotype to genotype, region to region, soil to soil and scientific management to farmers management. </string>
+    <string name="cottonHarvest" translatable="false">Cotton is a kharif crop which requires 6 to 8 months to mature. Its time of sowing and harvesting differs in different parts of the country depending upon the climatic conditions.</string>
+    //Tomato
+    <string name="tomato" translatable="false">Rice is the most important human food crop in the world, directly feeding more people than any other crop.</string>
+    <string name="tomatoSoil" translatable="false">Sandy loam is best for early tomatoes. Heavy clay loam is ideal for late tomatoes. Amend the soil with aged compost before planting. Tomatoes prefer a soil with a pH between 6.0 and 7.0, just below neutral in acidity.</string>
+    <string name="tomatoIrrigation" translatable="false">The water requirement of outdoor grown tomatoes varies between 4000 - 6000 m³/ha. In greenhouses up to 10,000 m3/ha of water are required. 70% or more of the root system are in the upper 20 cm of the soil. Therefore, a drip system equipped with a fertigation device is advisable.</string>
+    <string name="tomatoHarvest" translatable="false">Tomatoes require 90-140 days to mature from seed; 60-90 days from transplanting, depending on the variety.</string>
+    //Cauliflower
+    <string name="cauliflower" translatable="false">Cauliflower is one of several vegetables in the species.It is an annual plant that reproduces by seed. Typically, only the head is eaten</string>
+    <string name="cauliflowerSoil" translatable="false">Cauliflower needs at least 6 hours of full sun each day; more is better. It also needs fertile, well-drained, moist soil with plenty of rich organic matter. The soil pH should be between 6.5 and 6.8 for optimum growth and to discourage clubroot disease.</string>
+    <string name="cauliflowerIrrigation" translatable="false">They need 2 inches of water each week; with normal rainfall, this usually requires supplemental watering. For best growth, side-dress the plants with a nitrogen fertilizer.</string>
+    <string name="cauliflowerHarvest" translatable="false">Harvest cauliflower when heads are 6 to 8 inches (15-20 cm) in diameter but still compact and smooth. The cauliflower head is a collection of flower buds; harvest the head while it is white and before yellow buds start to open. </string>
+
+    //Sugarcane
+    <string name="cane" translatable="false">Sugarcane, or sugar cane, are several species of tall perennial true grasses of the genus Saccharum.</string>
+    <string name="caneSoil" translatable="false">Humid soils from 100 to 150 cm deep with good drainage are most suitable.It grows well in deep, well-drained soils of medium fertility of sandy loam soil textures with a pH range from 6.0 to 7.7.</string>
+    <string name="caneIrrigation" translatable="false">Drip irrigation in sugarcane is a relatively new innovative technology that can conserve water, energy and increase profits.</string>
+    <string name="caneHarvest" translatable="false">Sugar cane grows for 12 to 16 months before being harvested between June and December each year. When harvested, the cane stands two to four metres high</string>
+
+    //Mustard
+    <string name="mustard" translatable="false">Mustard is a condiment made from the seeds of a mustard plant. The whole, ground, cracked, or bruised mustard seeds are mixed with water, vinegar, lemon juice, wine, or other liquids, salt, and often other flavorings and spices, to create a paste or sauce ranging in color from bright yellow to dark brown.</string>
+    <string name="musSoil" translatable="false"> Mustard can be raised on variable soil types with good drainage, but is best adapted to fertile, well-drained, loamy soils.</string>
+    <string name="musIrrigation" translatable="false">Mustard is a crop of 110-120 days duration. Mustard requires about 31-40 cms of water. The first irrigation should be given at the flowering stage which is about 30 days after sowing.</string>
+    <string name="musHarvest" translatable="false">For yellow and oriental mustard, swathing should occur when 75 per cent of the seeds have changed from green to yellow. For brown mustard, optimal swathing timing is when 60 per cent of seeds have changed from green to brownish or red.</string>
+    //Oats
+    <string name="oats" translatable="false">Oats are a whole-grain cereal, known scientifically as Avena sativa. They are a very good source of fiber, especially beta-glucan, and are high in vitamins, minerals and antioxidants. It is a cool season crop.</string>
+    <string name="oatsSoil" translatable="false">It grows best on well drained, fertile loamy soils.They are characterised by low amounts of organic matter and a poor ability to retain water and nutrients.</string>
+    <string name="oatsIrrigation" translatable="false">Selected well-drained loamy soil with good irrigation prospect for growing of oats. Water logged areas should be avoided.</string>
+    <string name="oatsHarvest" translatable="false">The oat crop mature within 120 days after sowing. For fodder purpose two cuttings are taken at 40 days interval.</string>
+    //Potato
+    <string name="potato" translatable="false">The potato is a starchy, tuberous crop from the perennial nightshade Solanum tuberosum. In many contexts, potato refers to the edible tuber, but it can also refer to the plant itself.</string>
+    <string name="potatoSoil" translatable="false">Soils, which are naturally loose, offer least resistance to the enlargement of the tubers is preferred. Loamy and sandy loam soils, rich in organic matter with good drainage and aeration are most suitable for cultivation of potato crop.</string>
+    <string name="potatoIrrigation" translatable="false"> Potatoes are shallow-rooted plants with finely branched root systems, and are therefore sensitive to even small deficiencies of water in the root zone.</string>
+    <string name="potatoHarvest" translatable="false"> For winter storage, it is best to let the plant and the weather tell you when to harvest potatoes. Wait until the tops of the vines have died before you begin harvesting.</string>
+
+    //Onion
+    <string name="onion" translatable="false">The onion, also known as the bulb onion or common onion, is a vegetable that is the most widely cultivated species of the genus Allium. Its close relatives include the garlic, leek, chive, and Chinese onion.</string>
+    <string name="onionSoil" translatable="false">Soil requirements. Onion crops thrive in a variety of soils. The soils considered ideal are those of medium and fine texture, sandy loam, warm, with good drainage and rich in organic matter.</string>
+    <string name="onionIrrigation" translatable="false"> Onion is shallow-rooted crop. Its root system is normally restricted to top 3 cm and roots penetrate seldom deeper (15 cm). The water requirement of its crop at initial growth is less.</string>
+    <string name="onionHarvest" translatable="false">Pull any onions that send up flower stalks; this means that the onions have stopped growing. When onions start to mature, the tops (foliage) become yellow and begin to fall over. Loosen the soil around the bulbs to encourage drying. When tops are brown, pull the onions.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
